@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv312/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large ML models
+*.pkl
+*.joblib
+
+# macOS
+.DS_Store
