@@ -1,0 +1,636 @@
+{
+  "historicalContext": {
+    "Battery Low": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2143
+        },
+        {
+          "Region": "West",
+          "Count": 1058
+        },
+        {
+          "Region": "South",
+          "Count": 1055
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Cell Down",
+          "frequency": 394
+        },
+        {
+          "nextAlarm": "Battery Low",
+          "frequency": 377
+        },
+        {
+          "nextAlarm": "Packet Loss",
+          "frequency": 369
+        },
+        {
+          "nextAlarm": "BTS Down",
+          "frequency": 364
+        },
+        {
+          "nextAlarm": "Synchronization Failure",
+          "frequency": 361
+        }
+      ]
+    },
+    "Packet Loss": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2108
+        },
+        {
+          "Region": "South",
+          "Count": 1074
+        },
+        {
+          "Region": "West",
+          "Count": 1051
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Power Failure",
+          "frequency": 398
+        },
+        {
+          "nextAlarm": "High Temperature",
+          "frequency": 387
+        },
+        {
+          "nextAlarm": "Packet Loss",
+          "frequency": 378
+        },
+        {
+          "nextAlarm": "Transmission Failure",
+          "frequency": 368
+        },
+        {
+          "nextAlarm": "Cell Down",
+          "frequency": 360
+        }
+      ]
+    },
+    "High Temperature": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2142
+        },
+        {
+          "Region": "West",
+          "Count": 1069
+        },
+        {
+          "Region": "South",
+          "Count": 996
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "High Temperature",
+          "frequency": 366
+        },
+        {
+          "nextAlarm": "Transmission Failure",
+          "frequency": 364
+        },
+        {
+          "nextAlarm": "Router Down",
+          "frequency": 363
+        },
+        {
+          "nextAlarm": "Synchronization Failure",
+          "frequency": 361
+        },
+        {
+          "nextAlarm": "Fiber Cut",
+          "frequency": 359
+        }
+      ]
+    },
+    "Power Failure": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2101
+        },
+        {
+          "Region": "South",
+          "Count": 1070
+        },
+        {
+          "Region": "West",
+          "Count": 1035
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Fiber Cut",
+          "frequency": 388
+        },
+        {
+          "nextAlarm": "Power Failure",
+          "frequency": 388
+        },
+        {
+          "nextAlarm": "Synchronization Failure",
+          "frequency": 376
+        },
+        {
+          "nextAlarm": "DG Failure",
+          "frequency": 363
+        },
+        {
+          "nextAlarm": "Router Down",
+          "frequency": 352
+        }
+      ]
+    },
+    "BTS Down": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2095
+        },
+        {
+          "Region": "South",
+          "Count": 1051
+        },
+        {
+          "Region": "West",
+          "Count": 1022
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Fiber Cut",
+          "frequency": 378
+        },
+        {
+          "nextAlarm": "Synchronization Failure",
+          "frequency": 365
+        },
+        {
+          "nextAlarm": "Battery Low",
+          "frequency": 365
+        },
+        {
+          "nextAlarm": "BTS Down",
+          "frequency": 360
+        },
+        {
+          "nextAlarm": "Packet Loss",
+          "frequency": 359
+        }
+      ]
+    },
+    "DG Failure": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2092
+        },
+        {
+          "Region": "West",
+          "Count": 1040
+        },
+        {
+          "Region": "South",
+          "Count": 1035
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Synchronization Failure",
+          "frequency": 375
+        },
+        {
+          "nextAlarm": "Router Down",
+          "frequency": 365
+        },
+        {
+          "nextAlarm": "DG Failure",
+          "frequency": 361
+        },
+        {
+          "nextAlarm": "Transmission Failure",
+          "frequency": 360
+        },
+        {
+          "nextAlarm": "Cell Down",
+          "frequency": 348
+        }
+      ]
+    },
+    "Fiber Cut": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2114
+        },
+        {
+          "Region": "South",
+          "Count": 1050
+        },
+        {
+          "Region": "West",
+          "Count": 1000
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Link Down",
+          "frequency": 392
+        },
+        {
+          "nextAlarm": "Battery Low",
+          "frequency": 386
+        },
+        {
+          "nextAlarm": "Fiber Cut",
+          "frequency": 371
+        },
+        {
+          "nextAlarm": "BTS Down",
+          "frequency": 346
+        },
+        {
+          "nextAlarm": "Packet Loss",
+          "frequency": 345
+        }
+      ]
+    },
+    "Transmission Failure": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2087
+        },
+        {
+          "Region": "West",
+          "Count": 1067
+        },
+        {
+          "Region": "South",
+          "Count": 1000
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "DG Failure",
+          "frequency": 389
+        },
+        {
+          "nextAlarm": "High Temperature",
+          "frequency": 381
+        },
+        {
+          "nextAlarm": "Router Down",
+          "frequency": 356
+        },
+        {
+          "nextAlarm": "Packet Loss",
+          "frequency": 352
+        },
+        {
+          "nextAlarm": "BTS Down",
+          "frequency": 348
+        }
+      ]
+    },
+    "Router Down": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2043
+        },
+        {
+          "Region": "South",
+          "Count": 1080
+        },
+        {
+          "Region": "West",
+          "Count": 1022
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Battery Low",
+          "frequency": 377
+        },
+        {
+          "nextAlarm": "Link Down",
+          "frequency": 368
+        },
+        {
+          "nextAlarm": "Power Failure",
+          "frequency": 361
+        },
+        {
+          "nextAlarm": "Cell Down",
+          "frequency": 359
+        },
+        {
+          "nextAlarm": "Synchronization Failure",
+          "frequency": 353
+        }
+      ]
+    },
+    "Link Down": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2037
+        },
+        {
+          "Region": "West",
+          "Count": 1052
+        },
+        {
+          "Region": "South",
+          "Count": 1031
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "BTS Down",
+          "frequency": 375
+        },
+        {
+          "nextAlarm": "Packet Loss",
+          "frequency": 362
+        },
+        {
+          "nextAlarm": "Router Down",
+          "frequency": 359
+        },
+        {
+          "nextAlarm": "Transmission Failure",
+          "frequency": 357
+        },
+        {
+          "nextAlarm": "Fiber Cut",
+          "frequency": 348
+        }
+      ]
+    },
+    "Synchronization Failure": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2039
+        },
+        {
+          "Region": "South",
+          "Count": 1056
+        },
+        {
+          "Region": "West",
+          "Count": 1012
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Fiber Cut",
+          "frequency": 362
+        },
+        {
+          "nextAlarm": "Power Failure",
+          "frequency": 360
+        },
+        {
+          "nextAlarm": "High Temperature",
+          "frequency": 356
+        },
+        {
+          "nextAlarm": "Router Down",
+          "frequency": 355
+        },
+        {
+          "nextAlarm": "Packet Loss",
+          "frequency": 341
+        }
+      ]
+    },
+    "Cell Down": {
+      "topRegions": [
+        {
+          "Region": "North",
+          "Count": 2009
+        },
+        {
+          "Region": "South",
+          "Count": 1036
+        },
+        {
+          "Region": "West",
+          "Count": 1028
+        }
+      ],
+      "transitions": [
+        {
+          "nextAlarm": "Router Down",
+          "frequency": 361
+        },
+        {
+          "nextAlarm": "Transmission Failure",
+          "frequency": 359
+        },
+        {
+          "nextAlarm": "DG Failure",
+          "frequency": 358
+        },
+        {
+          "nextAlarm": "Packet Loss",
+          "frequency": 346
+        },
+        {
+          "nextAlarm": "Power Failure",
+          "frequency": 345
+        }
+      ]
+    }
+  },
+  "rcModelRules": {
+    "Synchronization Failure|Grid Available|Clear": "Battery Failure",
+    "Battery Low|Grid Failure|Storm": "Weather Impact",
+    "Packet Loss|Grid Available|Clear": "Fiber Cut",
+    "High Temperature|Grid Available|Storm": "Power Failure",
+    "Battery Low|Grid Failure|Fog": "Equipment Fault",
+    "DG Failure|Grid Available|Rain": "Fiber Cut",
+    "DG Failure|Grid Available|Clear": "Equipment Fault",
+    "DG Failure|Grid Failure|Storm": "Weather Impact",
+    "Router Down|Grid Failure|Rain": "Battery Failure",
+    "High Temperature|Grid Failure|Clear": "Battery Failure",
+    "Transmission Failure|Grid Available|Clear": "Weather Impact",
+    "Power Failure|Grid Failure|Fog": "Weather Impact",
+    "Power Failure|Grid Failure|Rain": "Fiber Cut",
+    "DG Failure|Grid Available|Fog": "Power Failure",
+    "BTS Down|Grid Failure|Rain": "Fiber Cut",
+    "Transmission Failure|Grid Failure|Rain": "Equipment Fault",
+    "Power Failure|Grid Available|Rain": "Battery Failure",
+    "Link Down|Grid Failure|Storm": "Battery Failure",
+    "Synchronization Failure|Grid Available|Fog": "Power Failure",
+    "Link Down|Grid Failure|Clear": "Fiber Cut",
+    "Power Failure|Grid Available|Storm": "Weather Impact",
+    "Fiber Cut|Grid Available|Storm": "Weather Impact",
+    "Battery Low|Grid Available|Storm": "Equipment Fault",
+    "Power Failure|Grid Failure|Storm": "Power Failure",
+    "Synchronization Failure|Grid Failure|Fog": "Weather Impact",
+    "High Temperature|Grid Available|Rain": "Weather Impact",
+    "Fiber Cut|Grid Available|Clear": "Power Failure",
+    "Transmission Failure|Grid Failure|Storm": "Battery Failure",
+    "Battery Low|Grid Available|Clear": "Equipment Fault",
+    "DG Failure|Grid Failure|Fog": "Equipment Fault",
+    "Fiber Cut|Grid Failure|Fog": "Equipment Fault",
+    "BTS Down|Grid Available|Rain": "Fiber Cut",
+    "Packet Loss|Grid Failure|Fog": "Fiber Cut",
+    "Power Failure|Grid Available|Clear": "Equipment Fault",
+    "Battery Low|Grid Failure|Rain": "Equipment Fault",
+    "Packet Loss|Grid Available|Storm": "Equipment Fault",
+    "Transmission Failure|Grid Failure|Clear": "Weather Impact",
+    "Packet Loss|Grid Available|Fog": "Weather Impact",
+    "BTS Down|Grid Available|Clear": "Weather Impact",
+    "Router Down|Grid Failure|Fog": "Equipment Fault",
+    "High Temperature|Grid Failure|Fog": "Fiber Cut",
+    "Cell Down|Grid Failure|Rain": "Fiber Cut",
+    "Battery Low|Grid Available|Rain": "Power Failure",
+    "Synchronization Failure|Grid Failure|Storm": "Battery Failure",
+    "Cell Down|Grid Failure|Storm": "Weather Impact",
+    "Router Down|Grid Available|Clear": "Battery Failure",
+    "DG Failure|Grid Failure|Clear": "Weather Impact",
+    "Battery Low|Grid Failure|Clear": "Fiber Cut",
+    "Synchronization Failure|Grid Available|Storm": "Battery Failure",
+    "Link Down|Grid Available|Rain": "Fiber Cut",
+    "Fiber Cut|Grid Available|Fog": "Equipment Fault",
+    "Transmission Failure|Grid Available|Storm": "Fiber Cut",
+    "Packet Loss|Grid Failure|Storm": "Power Failure",
+    "Router Down|Grid Available|Storm": "Equipment Fault",
+    "BTS Down|Grid Failure|Clear": "Battery Failure",
+    "Power Failure|Grid Failure|Clear": "Fiber Cut",
+    "Cell Down|Grid Available|Fog": "Weather Impact",
+    "Synchronization Failure|Grid Failure|Clear": "Power Failure",
+    "BTS Down|Grid Available|Storm": "Weather Impact",
+    "Link Down|Grid Failure|Fog": "Fiber Cut",
+    "Battery Low|Grid Available|Fog": "Fiber Cut",
+    "Packet Loss|Grid Failure|Rain": "Fiber Cut",
+    "Power Failure|Grid Available|Fog": "Battery Failure",
+    "High Temperature|Grid Available|Clear": "Fiber Cut",
+    "BTS Down|Grid Available|Fog": "Battery Failure",
+    "Cell Down|Grid Available|Rain": "Equipment Fault",
+    "Link Down|Grid Available|Clear": "Weather Impact",
+    "Router Down|Grid Available|Fog": "Equipment Fault",
+    "Synchronization Failure|Grid Failure|Rain": "Weather Impact",
+    "Fiber Cut|Grid Failure|Storm": "Power Failure",
+    "Router Down|Grid Failure|Storm": "Weather Impact",
+    "Router Down|Grid Failure|Clear": "Weather Impact",
+    "Fiber Cut|Grid Failure|Clear": "Power Failure",
+    "BTS Down|Grid Failure|Fog": "Weather Impact",
+    "DG Failure|Grid Failure|Rain": "Equipment Fault",
+    "Transmission Failure|Grid Available|Rain": "Weather Impact",
+    "Packet Loss|Grid Available|Rain": "Equipment Fault",
+    "Fiber Cut|Grid Available|Rain": "Weather Impact",
+    "Transmission Failure|Grid Failure|Fog": "Power Failure",
+    "Cell Down|Grid Failure|Fog": "Weather Impact",
+    "High Temperature|Grid Failure|Storm": "Equipment Fault",
+    "Cell Down|Grid Available|Storm": "Weather Impact",
+    "Synchronization Failure|Grid Available|Rain": "Weather Impact",
+    "Cell Down|Grid Available|Clear": "Battery Failure",
+    "Cell Down|Grid Failure|Clear": "Equipment Fault",
+    "Packet Loss|Grid Failure|Clear": "Weather Impact",
+    "High Temperature|Grid Available|Fog": "Battery Failure",
+    "Link Down|Grid Failure|Rain": "Weather Impact",
+    "Transmission Failure|Grid Available|Fog": "Fiber Cut",
+    "BTS Down|Grid Failure|Storm": "Weather Impact",
+    "Router Down|Grid Available|Rain": "Battery Failure",
+    "Fiber Cut|Grid Failure|Rain": "Fiber Cut",
+    "DG Failure|Grid Available|Storm": "Battery Failure",
+    "Link Down|Grid Available|Fog": "Battery Failure",
+    "Link Down|Grid Available|Storm": "Fiber Cut",
+    "High Temperature|Grid Failure|Rain": "Fiber Cut"
+  },
+  "impactAverages": {
+    "bySeverity": {
+      "Critical": 3200,
+      "Major": 2600,
+      "Minor": 1800,
+      "Warning": 1200
+    },
+    "byType": {
+      "Battery Low": 2496,
+      "Packet Loss": 2529,
+      "High Temperature": 2502,
+      "Power Failure": 2534,
+      "BTS Down": 2494,
+      "DG Failure": 2492,
+      "Fiber Cut": 2489,
+      "Transmission Failure": 2488,
+      "Router Down": 2499,
+      "Link Down": 2465,
+      "Synchronization Failure": 2488,
+      "Cell Down": 2501
+    }
+  },
+  "dropdownOptions": {
+    "alarmTypes": [
+      "Battery Low",
+      "Packet Loss",
+      "High Temperature",
+      "Power Failure",
+      "BTS Down",
+      "DG Failure",
+      "Fiber Cut",
+      "Transmission Failure",
+      "Router Down",
+      "Link Down",
+      "Synchronization Failure",
+      "Cell Down"
+    ],
+    "severities": [
+      "Critical",
+      "Major",
+      "Minor",
+      "Warning"
+    ],
+    "technologies": [
+      "4G LTE",
+      "5G NR",
+      "FTTH",
+      "Microwave"
+    ],
+    "weatherConditions": [
+      "Clear",
+      "Rain",
+      "Storm",
+      "Fog"
+    ],
+    "powerStatuses": [
+      "Grid Available",
+      "Grid Failure"
+    ],
+    "rootCauses": [
+      "Equipment Fault",
+      "Battery Failure",
+      "Power Failure",
+      "Weather Impact",
+      "Fiber Cut"
+    ],
+    "regions": [
+      "North",
+      "South",
+      "West"
+    ],
+    "circles": [
+      "Delhi",
+      "Haryana",
+      "Karnataka",
+      "Maharashtra"
+    ]
+  }
+}

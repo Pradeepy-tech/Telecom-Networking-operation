@@ -1,0 +1,8 @@
+{
+  "name": "Telecom Network Operations Center",
+  "description": "Interactive operations dashboard for telecom network alarms, geospatial mapping, root cause & impact forecasting, and customer complaint correlation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
