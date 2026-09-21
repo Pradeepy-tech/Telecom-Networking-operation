@@ -26,7 +26,29 @@ A modern, high-performance web dashboard for Telecom Network Operations Center i
    - Regional grievance filtering with dynamic grievance severity and alarm-type breakdowns.
    - Filtered complaint CSV export.
 
-## Development & Build
+## Python Implementation & Standalone Dashboard
+
+In addition to the interactive web frontend, a full Python application is included for local analytics, ML modeling, and Streamlit dashboarding.
+
+### Python Requirements & Setup
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run the interactive Streamlit dashboard
+streamlit run app.py
+
+# 3. Or run the data analytics and ML module
+python analytics.py
+```
+
+### Python Structure
+- `app.py`: Full interactive Streamlit dashboard with 4 tabs (Network Overview, Geospatial Mapping with Folium, Root Cause Forecasting with ML, and Complaint Correlation).
+- `analytics.py`: Data pipeline loading `alarm.xlsx`, `complain.xlsx`, `weather.xlsx`, `chain.xlsx`, `network.xlsx` with correlation routines and predictive modeling.
+- `requirements.txt`: Python package specifications (`streamlit`, `pandas`, `plotly`, `folium`, `scikit-learn`, `openpyxl`).
+
+## Web Application (React + Vite)
 
 ```bash
 # Start development server on port 3000
